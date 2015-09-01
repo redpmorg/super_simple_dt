@@ -1,0 +1,9 @@
+#qTable li {cursor:pointer}
+#qTable li:hover { text-decoration:underline}
+#qTable tr:nth-child(n+2) {display:none}
+#qTable p {font-weight:bold; line-height:50%}
+
+#errdiv {display:none; font-weight:bold; color:#903; padding:0.3em}
+.selectedAnswer {font-weight:bold; color:#060}
+
+i {display:none}

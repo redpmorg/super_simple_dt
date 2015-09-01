@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=8"/>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport' />
+	<title>Decision tree</title>
+	<link href="bootstrap-3.2.0-dist/css/bootstrap.css" rel="stylesheet"/>
+	<link href="styles/decision_tree.css" rel="stylesheet"/>
+	<!--[if lt IE 9]><script src="/scripts/respond.js" ></script><![endif]-->
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div id="errdiv"></div>
+		</div>
+		<div class="row">
+			<table class="table" id="qTable">
+				<tr>
+<!--1-->		<td><p>Le requérant est un: </p>
+						<ul>
+							<li>Person <i>2</i></li>
+							<li>Société <i>3</i></li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+<!--2-->		<td><p>La personne vivent dans: </p>
+						<ul>
+							<li>Bucharest <i>11</i></li>
+							<li>Paris <i>4</i></li>
+						</ul>
+					</td>
+				</tr>
+		 		<tr>
+<!--3-->		<td><p>Ventes annuelles de la Société est:</p>
+						<ul>
+							<li>&euro;5 million ou plus <i>10</i></li>
+							<li>Moins de 5 millions&euro; <i>6</i></li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+<!--4-->			<td><p>Ventes annuelles de la Person est:</p>
+						<ul>
+							<li>Moins de 50.000&euro;<i>8</i></li>
+							<li>&euro;50.000 ou plus <i>5</i></li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+<!--5-->			<td><p>Avoir cette personne une Mercedes Benz?</p>
+						<ul>
+							<li>Oui <i>9</i></li>
+							<li>Non <i>7</i></li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+<!--6-->			<td> [ Offre 14 - Crédit d'extention; Offre 32 - Ligne de crédit ] </td>
+				</tr>
+				<tr>
+<!--7-->			<td> [ Offre 52 - Crédit auto ] </td>
+				</tr>
+				<tr>
+<!--8-->			<td> [ Offre 1 - Crédit pour consommation ] </td>
+				</tr>
+				<tr>
+<!--9-->			<td> [ Offre 27 - Crédit pour une garde du corps ] </td>
+				</tr>
+				<tr>
+<!--10-->			<td> [ S'il vous plaît vous appeler le manager et il fera l'offre! ] </td>
+				</tr>
+				<tr>
+<!--11-->			<td> [ Ne pas accorder des prêts pour les étrangers! ] </td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<script src="scripts/jquery-1.11.1.min.js"></script>
+	<script src="bootstrap-3.2.0-dist/js/bootstrap.js"></script>
+	<script type="text/javascript" src="scripts/decision_tree.js"></script>
+
+</body>
+
+</html>
+
+
